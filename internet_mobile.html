@@ -6,13 +6,13 @@
 
 <style type="text/css">
 	body {background-color: #333; line-height: 2;}
-	p {font-size: 30px; color: #eee; font-family: 'Segoe UI', Arial, Tahoma, sans-serif;}
-	a {font-size: 30px; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; text-decoration: none;}
+	.plain {font-size: 36px; color: #eee; font-family: 'Segoe UI', Arial, Tahoma, sans-serif;}
+	a {font-size: 36px; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; text-decoration: none;}
 	a:link {color: #8cf;}
 	a:visited {color: #6af}
 	a:active {color: #0af; font-weight: bold;}
 	a:hover {color: #cef; font-weight: bold;}
-	input {font-weight: normal; font-size: 30px; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; padding: 2px; width: 47%; height: 60px;}
+	input {font-weight: normal; font-size: 36px; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; padding: 2px; width: 47%; height: 80px;}
 	.inp {border: #33f 1px solid; color: #dfe; background-color: #555;}
 	.sub {border: #aaa 1px solid; color: #eee; background-color: #111;}
 	.inpy {border: #ec0 1px solid; color: #dfe; background-color: #440;}
@@ -27,19 +27,21 @@
 	.inps {border: #f7f 1px solid; color: #dfe; background-color: #636;}
 	.inpx {border: #f00 1px solid; color: #dfe; background-color: #666;}
 	.inpz {border: #aaa 1px solid; color: #dfe; background-color: #006;}
-	h3 {color: #def; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; font-size: 30px;}
+	h3 {color: #def; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; font-size: 36px;}
 	form {padding-bottom: 20px;}
 </style>
 
 </head>
 <body>
 
+ <p>
   <!-- GOOGLE -->
    <form name="f" action="http://www.google.com/search">
     <input type="hidden" name="hl" value="en" />
     <input type="text" name="q" class="inp" />
     <input type="submit" name="btnG" value="Google" class="sub" />
    </form>
+ </p>
 
 <h3>Translations</h3>
  <p>
@@ -78,8 +80,9 @@
    <form action="http://biblemenus.com/searchint.php" method="get">
     <input type="text" name="q" class="inpb" />
     <input type="submit" value="Biblehub Interlinear" class="sub" />
-   </form><a href="https://www.studylight.org/lexicons/eng/bullinger.html?l=a">Bullinger's Figures of Speech</a><br>
-  <a href="https://www.studylight.org/interlinear-study-bible/greek/matthew/1.html">Interlinear (StudyLight.org)</a> (Thayer's)<br>
+   </form>
+  <a href="https://www.studylight.org/lexicons/eng/bullinger.html?l=a">Bullinger's Figures of Speech</a><br>
+  <a href="https://www.studylight.org/interlinear-study-bible/greek/matthew/1.html">Interlinear (StudyLight.org)</a> <span class="plain">(Thayer's)</span><br>
   <a href="https://www.studylight.org/dictionaries/eng/vot.html">Vine's OT (StudyLight.org)</a><br>
   <a href="https://www.studylight.org/dictionaries/eng/ved.html">Vine's NT (StudyLight.org)</a><br>
   <a href="https://www.studylight.org/encyclopedias/eng/mse.html">Cyclopedia - McClintock & Strong (StudyLight.org)</a><br>
