@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Scott Ruhmann" />
+  <title>HOME v 6.0 Mobile</title>
+
+<style type="text/css">
+	body {background-color: #333; line-height: 2;}
+	table {padding: 10px;}
+	td {font-weight: normal; font-size: 18px; color: #eee; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; vertical-align: top;}
+	a {font-size: 18px; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; text-decoration: none;}
+	a:link {color: #8cf;}
+	a:visited {color: #6af}
+	a:active {color: #0af; font-weight: bold;}
+	a:hover {color: #cef; font-weight: bold;}
+	input {font-weight: normal; font-size: 18px; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; padding: 2px; width: 40%; height: 40px;}
+	.inp {border: #33f 1px solid; color: #dfe; background-color: #555;}
+	.sub {border: #aaa 1px solid; color: #eee; background-color: #111;}
+	.inpy {border: #ec0 1px solid; color: #dfe; background-color: #440;}
+	.inpr {border: #f00 1px solid; color: #dfe; background-color: #600;}
+	.inpm {border: #b00 1px solid; color: #dfe; background-color: #300;}
+	.inpw {border: #bbb 1px solid; color: #dfe; background-color: #555;}
+	.inpb {border: #08c 1px solid; color: #dfe; background-color: #036;}
+	.inpb {border: #08c 1px solid; color: #dfe; background-color: #036;}
+	.inpn {border: #08c 1px solid; color: #dfe; background-color: #036;}
+	.inpo {border: #f80 1px solid; color: #dfe; background-color: #630;}
+	.inpl {border: #0e0 1px solid; color: #dfe; background-color: #042;}
+	.inps {border: #f7f 1px solid; color: #dfe; background-color: #636;}
+	.inpx {border: #f00 1px solid; color: #dfe; background-color: #666;}
+	.inpz {border: #aaa 1px solid; color: #dfe; background-color: #006;}
+	h3 {color: #def; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; font-size: 18px;}
+	a.expand {color: #def; font-family: 'Segoe UI', Arial, Tahoma, sans-serif; font-size: 18px; text-decoration: underline;}
+	a.expand:hover {color: #fff; font-weight: bold;}
+	a.hi {color: #def; font-size: 18px;}
+	#chuar {display: none;}
+	#chutx {display: none;}
+	#chuor {display: none;}
+	#bible {display: none;}
+	#faves {display: none;}
+	#login {display: none;}
+	#bills {display: none;}
+	#trans {display: none;}
+	#write {display: none;}
+	#games {display: none;}
+	.miss {font-weight: bold;}
+	.asub {font-family: 'Segoe UI', Arial, Tahoma, sans-serif; font-size: 18px; font-weight: normal; color: #8cf; width: 40%px; border: 0px; text-align: left; background-color: #333; padding: 0px;}
+	.asub:hover {color: #cef; font-weight: bold;}
+	form {padding-bottom: 20px;}
+</style>
+
+</head>
+<body>
+
+  <!-- GOOGLE -->
+   <form name="f" action="http://www.google.com/search">
+    <input type="hidden" name="hl" value="en" />
+    <input type="text" name="q" class="inp" />
+    <input type="submit" name="btnG" value="Google" class="sub" />
+   </form>
+
+<h3>Translations</h3>
+ <p>
+   <form action="https://www.biblegateway.com/quicksearch/">
+    <input class="inpm" type="text" name="quicksearch" />
+    <input class="sub" type="submit" value="ESV" />
+    <input type="hidden" name="version1" value="ESV" />
+   </form>
+   <form action="https://www.biblegateway.com/quicksearch/">
+    <input class="inpm" type="text" name="quicksearch" />
+    <input class="sub" type="submit" value="NET" />
+    <input type="hidden" name="version1" value="NET" />
+   </form>
+  <a href="https://biblehub.com/interlinear/apostolic/genesis/2.htm">LXX Interlinear (biblehub)</a><br>
+  <a href="https://www.biblestudytools.com/lxx/genesis/1.html">LXX - Brenton 1851 (BibleStudyTools)</a><br>
+  <a href="https://ccat.sas.upenn.edu/nets/edition/">LXX - NETS</a><br>
+  <a href="https://www.stepbible.org/version.jsp?version=SPE">Samaritan Pentateuch - English</a><br>
+</p>
+
+<h3>Interlinears & Lexicons</h3>
+ <p>
+  <!-- BibleStudyTools Interlinear -->
+   <form method="get" action="http://www.biblestudytools.com/interlinear-bible/passage/">
+    <input type="hidden" name="s" value="" disabled />
+    <input type="text" name="q" class="inpy" />
+    <input type="hidden" name="t" value="nas" />
+    <input type="submit" class="sub" value="BibleStudyTools Interlinear" />
+   </form>
+  <!-- Biblehub Lexicon -->
+   <form action="http://biblemenus.com/searchlex.php" method="get">
+    <input type="text" name="q" class="inpb" />
+    <input type="submit" value="Biblehub Lexicon" class="sub" />
+   </form>
+  <!-- Biblehub Interlinear -->
+   <form action="http://biblemenus.com/searchint.php" method="get">
+    <input type="text" name="q" class="inpb" />
+    <input type="submit" value="Biblehub Interlinear" class="sub" />
+   </form>
+  <a href="https://www.studylight.org/dictionaries/eng/ved.html">Vine's Expository (studylight)</a><br>
+  <a href="https://www.billmounce.com/greek-dictionary">Mounce Greek Dictionary</a><br>
+  <a href="https://www.biblestudytools.com/lexicons/">BibleStudyTools Lexicon</a><br>
+  <a href="https://biblehub.com/lexicon/matthew/1-1.htm">BibleHub Lexicon</a><br>
+ </p>
+
+<h3>Articles</h3>
+ <p>
+  <!-- Christian Courier -->
+   <form action="https://christiancourier.com/search" method="get">
+    <input type="text" name="q"  class="inpb" />
+    <input type="submit" value="Christian Courier" class="sub" />
+   </form>
+  <!-- Apologetics Press -->
+   <form action="http://www.google.com/search" method="GET" name="f">
+    <input type="hidden" name="as_sitesearch" value="apologeticspress.org" />
+    <input type="text" name="q" class="inpm" />
+    <input type="submit" value="Apologetics Press" class="sub" />
+   </form>
+  <!-- Answers in Genesis -->
+   <form action="https://answersingenesis.org/search" method="GET">
+    <input type="hidden" name="refinement" value="articles" />
+    <input type="text" name="q" class="inpb" />
+    <input type="submit" value="AiG" class="sub" />
+   </form>
+  <!-- La Vista Church of Christ -->
+   <form action="http://www.google.com/search" method="GET" name="f">
+    <input type="hidden" name="as_sitesearch" value="www.lavistachurchofchrist.org" />
+    <input type="text" name="q"  class="inpo" />
+    <input type="submit" value="La Vista CoC" class="sub" />
+   </form>
+  <!-- Radically Christian -->
+   <form action="http://www.google.com/search" method="GET" name="f">
+    <input type="hidden" name="as_sitesearch" value="www.radicallychristian.com" />
+    <input type="text" name="q" class="inpy" />
+    <input type="submit" value="Radically Christian" class="sub" />
+   </form>
+  <!-- Plain Bible Teaching -->
+   <form method="get" action="https://plainbibleteaching.com/">
+    <input type="text" name="s" class="inpx" />
+    <input type="submit" value="PlainBibleTeaching" class="sub" />
+   </form>
+  <!-- Padfield -->
+   <form action="https://www.padfield.com/aboutus/search.html">
+    <input type="text" name="ss360Query" class="inpr" />
+    <input type="submit" value="Padfield" class="sub" />
+   </form>
+  <!-- bible.ca -->
+   <form method="get" action="https://www.bible.ca/cgi-bin/texis/webinator/search/">
+    <input type="text" name="query" class="inp" />
+    <input type="submit" value="Bible.ca" class="sub" />
+   </form>
+  <!-- Armstrong Institute of Biblical Archaeology -->
+   <form name="search" method="get" action="https://armstronginstitute.org/search">
+    <input type="text" name="query" class="inpz" />
+    <input type="submit" name="sa" value = "Armstrong Inst" class="sub" />
+   </form>
+ </p>
+
+<h3>Commentaries</h3>
+ <p>
+  <!-- Commentaries on BibleHub (google) -->
+   <form action="http://www.google.com/search" method="GET" name="f">
+    <input type="hidden" name="as_sitesearch" value="biblehub.com/commentaries" />
+    <input type="text" name="q"  class="inpn" />
+    <input type="submit" value="Commentaries" class="sub" />
+   </form>
+  <a href="https://enduringword.com">David Guzik (Commentary)</a><br>
+  <a href="https://www.studylight.org/commentaries/eng/rwp.html">Word Pictures (A.T. Roberston)</a><br>
+ </p>
+
+<h3>Hymns</h3>
+ <p>
+  <a href="https://churchofbend.github.io/files/hym.htm">27th Street - Hymn Audio</a><br>
+  <a href="https://www.pdhymns.com">Public Domain Hymns</a><br>
+  <!-- R.J. Stevens -->
+   <form action="https://www.rjstevensmusic.com/">
+    <input class="inpz" type="text" name="s" />
+    <input class="sub" type="submit" value="R.J. Stevens" />
+   </form>
+ </p>
+
+<h3>Misc Bible</h3>
+ <p>
+  <!-- Topical from biblehub.com (Google) -->
+   <form action="http://www.google.com/search" method="GET" name="f">
+    <input type="hidden" name="as_sitesearch" value="biblehub.com/topical" />
+    <input type="text" name="q"  class="inpn" />
+    <input type="submit" value="Topical" class="sub" />
+   </form>
+  <!-- Dictionary of Bible Themes (Google) -->
+   <form action="http://www.google.com/search" method="GET" name="f">
+    <input type="hidden" name="as_sitesearch" value="www.biblegateway.com/resources/dictionary-of-bible-themes" />
+    <input type="text" name="q"  class="inp" />
+    <input type="submit" value="Bible Themes" class="sub" />
+   </form>
+  <!-- Open Bible Cross References -->
+   <form action="http://www.openbible.info/labs/cross-references/search">
+    <input class="inpl" type="text" name="q" />
+    <input class="sub" type="submit" value="Cross References" />
+   </form>
+  <a href="https://biblehub.com/timeline/">Bible Timeline</a><br>
+  <a href="https://www.lavistachurchofchrist.org/cms/bible-studies/the-gospel-accounts-a-chronological-harmony/">Gospels Chronology (LaVista)</a><br>
+  <a href="http://www.freebibleimages.org">Free Bible Images</a>
+  <a href="https://read.lsvbible.com">Literal Standard Version</a></p>
+ </p>
+
+<h3>Directories & Church Sites</h3>
+ <p>
+  <a href="https://wheresaintsmeet.com">Where Saints Meet</a><br>
+  <a href="https://truthdirectory.org">Church Directory (Truth Magazine)</a><br>
+  <a href="http://www.bible.ca/directory/seek.php?type=church">Find churches (bible.ca)</a><br>
+ </p>
+
+<h3>Internet</h3>
+
+<p>
+  <!-- Wiki -->
+   <form action="http://en.wikipedia.org/w/index.php">
+    <input type="hidden" name="title" value="Special:Search">
+    <input type="text" name="search" class="inpw">
+    <input type="submit" name="fulltext" value="Wiki" class="sub">
+   </form>
+  <!-- AZ Lyrics -->
+   <form action="https://www.azlyrics.com/search/">
+    <input type="hidden" name="x" value="28d987d126b45274aad020b6767c719c5d179e8acf084e4ce732c853ec3c4e69">
+    <input type="text" name="q" class="inps">
+    <input type="submit" value="AZ Lyrics" class="sub">
+   </form>
+  <!-- IsMyShowCancelled -->
+   <form name="SearchForm" action="http://www.ismyshowcancelled.com/shows/search/page/1/" target="_blank">
+    <input type="text" name="Search" class="inpl" />
+    <input type="submit" name="btnG" value="Cancelled?" class="sub" />
+   </form>
+  <!-- WhenToStream -->
+   <form action="http://www.google.com/search" method="GET" name="f" target="_blank">
+    <input type="hidden" name="as_sitesearch" value="www.whentostream.com" />
+    <input type="text" name="q" class="inp" />
+    <input type="submit" value="WhenToStream" class="sub" />
+   </form>
+</p>
+
+</body>
+</html>
